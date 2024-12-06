@@ -1,1 +1,1 @@
-# MySQL-CODE
+# Updating Day wise MySQL Cheat Sheets.
