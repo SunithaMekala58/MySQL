@@ -37,16 +37,7 @@ FROM employee_demographics;
 #The query still runs the exact same, but it is easier to read and pick out the columns
 #being selected and what you're doing with them.
 
-#For example let's take a look at using a calculation in the select statement
-
-#You can see here we have the total_money_spent - we can perform calculations on this
-SELECT first_name,
- last_name,
- total_money_spent,
- total_money_spent + 100
-FROM customers;
-
-#See how it's pretty easy to read and to see which columns we are using.
+ #PEDMAS
 
 #Math in SQL does follow PEMDAS which stands for Parenthesis, Exponent, Multiplication,
 #Division, Addition, subtraction - it's the order of operation for math
